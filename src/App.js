@@ -2,7 +2,7 @@ import MainPage from "./components/MainPage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="scrollbar-hide">
       <MainPage />
     </div>
   );
