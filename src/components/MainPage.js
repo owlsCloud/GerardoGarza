@@ -6,7 +6,7 @@ function MainPage() {
       <div className="flex justify-center w-1/2 h-screen">
         <img src={me} alt="me" className="my-auto rounded-3xl w-1/2 " />
       </div>
-      <div className="w-1/2 flex justify-center items-center">
+      <div className="w-1/2 flex justify-left items-center">
         <h1 className="text-textColor text-[51px]">
           I'm Gerardo Garza
           <span className="text-[#fff] block">Software Engineer</span>
