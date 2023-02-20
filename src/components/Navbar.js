@@ -15,7 +15,7 @@ function Navbar() {
           <li
             className={`w-[50px] h-[50px] ${
               currentlyActive === "home" ? "bg-primary" : "bg-inActive"
-            } rounded-full m-auto mb-3 flex justify-center `}
+            } rounded-full m-auto mb-5 flex justify-center hover:bg-primary`}
           >
             <FaHome size={"1.3em"} color={"#ffffff"} className="m-auto" />
           </li>
@@ -31,7 +31,7 @@ function Navbar() {
           <li
             className={`w-[50px] h-[50px] ${
               currentlyActive === "about" ? "bg-primary" : "bg-inActive"
-            } rounded-full m-auto mb-3 flex justify-center `}
+            } rounded-full m-auto mb-5 flex justify-center hover:bg-primary`}
           >
             <FaUser size={"1.3em"} color={"#ffffff"} className="m-auto" />
           </li>
@@ -47,7 +47,7 @@ function Navbar() {
           <li
             className={`w-[50px] h-[50px] ${
               currentlyActive === "portfolio" ? "bg-primary" : "bg-inActive"
-            } rounded-full m-auto mb-3 flex justify-center `}
+            } rounded-full m-auto mb-5 flex justify-center hover:bg-primary`}
           >
             <FaBriefcase size={"1.3em"} color={"#ffffff"} className="m-auto" />
           </li>
@@ -62,7 +62,7 @@ function Navbar() {
           <li
             className={`w-[50px] h-[50px] ${
               currentlyActive === "contact" ? "bg-primary" : "bg-inActive"
-            } rounded-full m-auto flex justify-center `}
+            } rounded-full m-auto flex justify-center hover:bg-primary`}
           >
             <FaEnvelope size={"1.3em"} color={"#ffffff"} className="m-auto" />
           </li>
