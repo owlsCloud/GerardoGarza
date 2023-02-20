@@ -6,6 +6,7 @@ module.exports = {
       primary: "#077707",
       inActive: "#353535",
       textColor: "#077707",
+      white: "#ffffff",
     },
     extend: {},
   },

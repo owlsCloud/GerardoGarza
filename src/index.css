@@ -13,3 +13,7 @@
 body {
   background-image: url("./assets/background.png");
 }
+
+#aboutMe {
+  background-color: #161616;
+}

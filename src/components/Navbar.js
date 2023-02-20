@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { FaBriefcase, FaEnvelope, FaHome, FaUser } from "react-icons/fa";
+
 function Navbar() {
   const [currentlyActive, setCurrentlyActive] = useState("home");
   return (
     <nav className="fixed right-0 h-screen flex justify-center mr-10 ">
       <ul className="m-auto">
         <a
-          href="#a"
+          href="/"
           className="m-auto"
           onClick={() => {
             setCurrentlyActive("home");
@@ -22,7 +23,7 @@ function Navbar() {
         </a>
 
         <a
-          href="#a"
+          href="/about"
           className="m-auto"
           onClick={() => {
             setCurrentlyActive("about");
