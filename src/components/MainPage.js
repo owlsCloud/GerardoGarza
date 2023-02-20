@@ -7,8 +7,9 @@ function MainPage() {
         <img src={me} alt="me" className="my-auto rounded-3xl w-1/2 " />
       </div>
       <div className="w-1/2 flex justify-center items-center">
-        <h1>
-          <span className="text-textColor text-[51px] ">I'm Gerardo Garza</span>
+        <h1 className="text-textColor text-[51px]">
+          I'm Gerardo Garza
+          <span className="text-[#fff] block">Software Engineer</span>
         </h1>
       </div>
     </div>
