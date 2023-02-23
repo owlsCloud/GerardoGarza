@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background-color: #070707;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -14,11 +10,13 @@
   font-family: "Poppins", sans-serif;
 }
 
-html {
+body {
   background-image: url("./assets/background.png");
-  background-color: #070707;
 }
 
+:root {
+  background-color: #161616;
+}
 #aboutMe {
   background-color: #161616;
 }
