@@ -8,10 +8,10 @@ function About() {
       </h1>
       <section id="aboutMe" className="h-screen">
         <Fade>
-          <div className="flex w-1/2 ">
-            <div className="text-white m-auto">
-              <h2 className="text-3xl">Personal Info</h2>
-              <ul className="text-lg leading-10">
+          <div className="flex ">
+            <div className="text-white w-1/2 ">
+              <ul className="text-lg leading-10 w-max m-auto">
+                <h2 className="text-3xl w-max ">Personal Info</h2>
                 <li>
                   <span className="text-primary">Name:</span> Gerardo Garza
                 </li>
@@ -26,12 +26,24 @@ function About() {
                   <span className="text-primary">Availiability: </span>
                   Contract/Fulltime/Part-time
                 </li>
+                <a
+                  href="#a"
+                  className="rounded-full bg-transparent border border-primary py-1 px-5 m-auto hover:bg-primary 
+              "
+                >
+                  Resume
+                </a>
               </ul>
-              <button className="rounded-full bg-transparent border border-primary py-1 px-5 mt-2 hover:bg-primary">
-                Resume
-              </button>
             </div>
-            <div className=""></div>
+            <div className="w-1/2">
+              <p className="text-white w-1/2 leading-7">
+                My passion lies in creating efficient solutions for complex
+                problems. With years of experience, I possess the skills to
+                build high-quality applications that are both functional and
+                visually appealing. Beyond coding, I love spending my free time
+                honing my guitar skills and walking with my cat May.
+              </p>
+            </div>
           </div>
         </Fade>
       </section>
