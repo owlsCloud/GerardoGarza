@@ -1,4 +1,3 @@
-import { AnimatePresence, motion } from "framer-motion";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import MainPage from "./components/MainPage";

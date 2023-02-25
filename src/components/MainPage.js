@@ -1,8 +1,10 @@
 import React from "react";
+import Zoom from "react-reveal/Zoom";
+
 import me from "../assets/me.jpg";
 function MainPage() {
   return (
-    <div className="flex h-full w-full">
+    <div id="home" className="flex h-full w-full">
       <div className="flex justify-center w-1/2 h-screen">
         <img src={me} alt="me" className="my-auto rounded-3xl w-1/2 " />
       </div>
@@ -11,12 +13,24 @@ function MainPage() {
           I'm Gerardo Garza
           <span className="text-[#fff] block">Software Engineer</span>
         </h1>
-        <p className="text-white leading-7 w-1/2">
-          I am a fullstack developer that is passionate about creating elegant
-          solutions to complex problems. In addition to my technical skills, I
-          am a dedicated team player who enjoys collaborating with others to
-          achieve our shared goals.
-        </p>
+
+        <ul className="text-primary leading-7">
+          <Zoom delay={1500}>
+            <li className="before:content-['-'] before:mr-2">
+              Fullstack Developer
+            </li>
+          </Zoom>
+          <Zoom delay={2750}>
+            <li className="before:content-['-'] before:mr-2">
+              Dedicated Team Player
+            </li>
+          </Zoom>
+          <Zoom delay={4000}>
+            <li className="before:content-['-'] before:mr-2">
+              Reliable and Efficient
+            </li>
+          </Zoom>
+        </ul>
       </div>
     </div>
   );
