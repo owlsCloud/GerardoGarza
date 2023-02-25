@@ -5,7 +5,7 @@ function About() {
     <section id="aboutMe" className="h-screen">
       <Fade>
         <h1 className=" p-10 text-[56px] text-white font-bold flex justify-center ">
-          About <span className="text-primary ">Me</span>
+          About&nbsp; <span className="text-primary">Me</span>
         </h1>
         <div className="flex justify-center w-1/2">
           <div className="text-white  ">
