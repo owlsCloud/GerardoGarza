@@ -15,25 +15,25 @@ function MainPage() {
         </h1>
 
         <ul className="text-primary leading-7">
-          <Zoom delay={1500}>
+          <Zoom delay={750}>
             <li className="before:content-['-'] before:mr-2">
               Fullstack Developer
             </li>
           </Zoom>
-          <Zoom delay={2750}>
+          <Zoom delay={2000}>
             <li className="before:content-['-'] before:mr-2">
               Dedicated Team Player
             </li>
           </Zoom>
-          <Zoom delay={4000}>
+          <Zoom delay={3250}>
             <li className="before:content-['-'] before:mr-2 mb-2">
               Reliable and Efficient
             </li>
           </Zoom>
-          <Zoom delay={5250}>
+          <Zoom delay={4450}>
             <Link
               to={"about"}
-              className="rounded-full bg-primary text-white py-1 px-5 mt-10"
+              className="rounded-full bg-primary text-white py-1 px-2.5 mt-10"
             >
               More About Me
             </Link>
