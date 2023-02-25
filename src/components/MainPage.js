@@ -1,6 +1,6 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
-
+import { Link } from "react-router-dom";
 import me from "../assets/me.jpg";
 function MainPage() {
   return (
@@ -26,9 +26,17 @@ function MainPage() {
             </li>
           </Zoom>
           <Zoom delay={4000}>
-            <li className="before:content-['-'] before:mr-2">
+            <li className="before:content-['-'] before:mr-2 mb-2">
               Reliable and Efficient
             </li>
+          </Zoom>
+          <Zoom delay={5250}>
+            <Link
+              to={"about"}
+              className="rounded-full bg-primary text-white py-1 px-5 mt-10"
+            >
+              More About Me
+            </Link>
           </Zoom>
         </ul>
       </div>
